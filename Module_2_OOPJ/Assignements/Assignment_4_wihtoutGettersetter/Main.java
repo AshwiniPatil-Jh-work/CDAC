@@ -1,14 +1,15 @@
-package ass3_1;
+package ass3_2;
 
 public class Main {
 
 	public static void main(String[] args) {
-        BmiTrack obj1 = new BmiTrack();
 		
-		obj1.acceptRecord();
-		obj1.calculateBMI();
-		obj1.classifyBMI();
-		obj1.printRecord();
-	}
+				CompoundInterestCalculator obj1 = new CompoundInterestCalculator();
+				
+				obj1.acceptRecord();
+				obj1.calculateFutureValue();
+				obj1.printRecord();
+			}
 
-}
+		}
+	
